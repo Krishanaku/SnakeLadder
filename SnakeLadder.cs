@@ -43,11 +43,17 @@ namespace SnakeLadder
                             Console.WriteLine("No Play");
                             Console.WriteLine("Player Will Stay in the same position");
                         }
-                    }
-                }
-                count++;
-            }
 
+                    }
+                    else if (position == 100)
+                    {
+                        Console.WriteLine("Player has Won !!!");
+
+                    }
+                    count++;
+                }
+
+            }
         }
         }
     }
