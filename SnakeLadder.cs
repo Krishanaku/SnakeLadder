@@ -10,10 +10,12 @@ namespace SnakeLadder
     {
         public static void SnakeladderGame()
         {
-            Console.WriteLine("Snake and Ladder game played with single player at start position 0");
-           
-            
-            }
+            Console.WriteLine("Roll Dice to find 1 To 6 number");
+            Random random = new Random();
+            int player = random.Next(1, 7);
+            Console.WriteLine("Player Roll the Dice : " + player);
+
+        }
         }
     }
 
