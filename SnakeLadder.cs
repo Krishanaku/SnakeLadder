@@ -30,6 +30,7 @@ namespace SnakeLadder
                             Console.WriteLine(" Player moves behind by the number of position received in the dice");
                             position = position - Dice;
                             Console.WriteLine("position moves back : " + position);
+
                         }
                         else if (result == 1)
                         {
